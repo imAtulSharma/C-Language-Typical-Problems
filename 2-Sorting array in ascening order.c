@@ -1,31 +1,46 @@
-//Programme to sort arrray in ascending order using goto
+//Programme to sort arrray in ascending order
+
 #include<stdio.h>
 
-void main(){
-    int array[5], temp;
+void main()
+{   
+    int Size_of_array;
 
-    printf("Enter the matrix numbers...\n");
-    for(int i = 1; i <= 5; i++){
-        printf("Enter the a%d element of the matrix\n", i);
-        scanf("%d", &array[i-1]);
+    printf("Enter the size of array : ");
+    scanf("%d", &Size_of_array);
+
+    int array[Size_of_array], temp, steps = 0;
+
+    for(int i = 0; i < Size_of_array; i++)
+    {
+        printf("Enter the %dth element of the array\n", i);
+        scanf("%d", &array[i]);
     }
 
-    come:
-    for (int i = 0; i < 5; i++)
+    printf("The inputed Array is...\n{");
+    for (int i = 0; i < Size_of_array; i++)
     {
-        if(array[i] > array[i + 1])
-        {
-            temp = array[i];
-            array[i] = array[i + 1];
-            array[i + 1] = temp;
-            
-            goto come;
+        printf("%d, ", array[i]);
+    }
+
+    for (int i = 0; i < Size_of_array; i++)
+    {   
+        for (int j = i+1; j < Size_of_array; j++)
+        {   
+            steps++;
+            if(array[i] > array[j])
+            {
+                temp = array[j];
+                array[j] = array[i];
+                array[i] = temp;
+            }
         }
     }
 
-    printf("The sorted matrix is...\n");
-    for (int i = 0; i < 5; i++)
+    printf("\b\b}\nThe sorted Array is in ascending order...\n{");
+    for (int i = 0; i < Size_of_array; i++)
     {
-        printf("[%d] ", array[i]);
+        printf("%d, ", array[i]);
     }
+    printf("\b\b}\nSteps take are %d", steps);
 }
