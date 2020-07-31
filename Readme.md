@@ -42,15 +42,35 @@ ABCDE
 ```
 [14-Binary to decimal.c](14-Binary%20to%20decimal.c)<br>
 [15-Decimal to binary.c](15-Decimal%20to%20binary.c)<br>
+
 [16-SOS 1.c](16-SOS%201.c)<br>
+```
+1 + 1/2 + 1/3 + 1/4 + 1/5 + ...... + 1/n
+```
 [17-SOS 2.c](17-SOS%202.c)<br>
+```
+1 + 1/2^2 + 1/3^2 + 1/4^2 + 1/5^2 + ...... + 1/n^2
+```
 [18-SOS 3.c](18-SOS%203.c)<br>
+```
+1/2 + 2/3 + 3/4 + 4/5 + 5/6 + ...... + n/(n+1)
+```
 [19-SOS 4.c](19-SOS%204.c)<br>
+```
+1/1 + 4/2 + 27/3 + 256/4 + 3125/5 + ...... + n^n/n
+```
 [20-Calendar.c](20-Calendar.c)<br>
 [21-Permutation.c](21-Permutation.c)<br>
 [22-Combination.c](22-Combination.c)<br>
+
 [23-SOS 5.c](23-SOS%205.c)<br>
+```
+1 + 1/2! + 1/3! + 1/4! + 1/5! + ...... + 1/n!
+```
 [24-SOS 6.c](24-SOS%206.c)<br>
+```
+1 + 4/2! + 27/3! + 256/4! + 3125/5! + ...... + n^2/n!
+```
 [25-Position of smallest number in array.c](25-Position%20of%20smallest%20number%20in%20array.c)<br>
 [26-Interchanging largest and smallest element in an array.c](26-Interchanging%20largest%20and%20smallest%20element%20in%20an%20array.c)<br>
 [27-Find second largest element in an array.c](27-Find%20second%20largest%20element%20in%20an%20array.c)<br>

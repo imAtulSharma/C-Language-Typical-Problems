@@ -1,4 +1,4 @@
-//Summation of series 1/2 + 2/3 + 3/4 + 4/5 + 5/6 + ...... + n/n+1 upto n terms
+//Summation of series 1/2 + 2/3 + 3/4 + 4/5 + 5/6 + ...... + n/(n+1) upto n terms
 
 #include<stdio.h>
 #include<math.h>
