@@ -28,7 +28,7 @@ void main(){
     }
     else
     {
-        printf("Enter natural number less than 26.");
+        printf("You enter natural number less than 26 !!");
     }
     
 }
