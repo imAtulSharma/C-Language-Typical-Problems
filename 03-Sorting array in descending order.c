@@ -37,7 +37,7 @@ void main()
         }
     }
 
-    printf("\b\b}\nThe sorted Array is in ascending order...\n{");
+    printf("\b\b}\nThe sorted Array is in descending order...\n{");
     for (int i = 0; i < Size_of_array; i++)
     {
         printf("%d, ", array[i]);
